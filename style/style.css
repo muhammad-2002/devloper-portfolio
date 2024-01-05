@@ -1,0 +1,61 @@
+/* sharing style  start */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.comon-clr {
+  color: #fd6e0a;
+}
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background-color: #fd6e0a;
+  font-size: 20px;
+  padding: 13px 35px;
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* sharing style  start */
+
+h1 {
+  color: #181818;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+nav ul li {
+  font-weight: 400;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 230px 0 226px;
+}
+nav > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin: 20px;
+}
+
+header {
+  background-color: #fff8f3;
+}
