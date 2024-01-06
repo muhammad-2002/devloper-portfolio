@@ -76,7 +76,7 @@ nav ul li {
     url("../images/developer.png");
   background-repeat: no-repeat;
   background-position: bottom right, top left;
-  background-size: 600px;
+  background-size: 600px, 79px;
 }
 .header-content {
   display: flex;
