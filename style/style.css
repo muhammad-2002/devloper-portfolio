@@ -28,8 +28,8 @@ body {
   cursor: pointer;
   border: 2px solid #fd6e0a;
   outline: none;
-  background:none;
-  
+  background: none;
+
   font-size: 20px;
   padding: 13px 35px;
   color: #fd6e0a;
@@ -59,7 +59,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 150px ;
+  margin: 0 150px;
 }
 nav > ul {
   display: flex;
@@ -75,8 +75,7 @@ nav ul li {
   background-image: url("../images/header_bg.png");
   background-repeat: no-repeat;
   background-position: bottom right;
-  background-size:  600px;
-  
+  background-size: 600px;
 }
 .header-content {
   display: flex;
@@ -89,22 +88,21 @@ nav ul li {
 }
 .text-content {
   padding-right: 200px;
- 
-  
 }
-.text-content-h3{
- font-size: 35px;
- font-style: normal;
- font-weight: 600;
- line-height: normal;
+.text-content-h3 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
-.text-content-h1{
+.text-content-h1 {
   font-size: 70px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
+  text-align: left;
 }
-.text-content-p{
+.text-content-p {
   font-family: Open Sans;
   font-size: 15px;
   font-style: normal;
@@ -114,3 +112,153 @@ nav ul li {
 }
 
 /* header design End
+/* about section start heare */
+.about {
+  text-align: center;
+  border-radius: 10px;
+  background: #fff8f3;
+  margin: 100px 200px;
+  padding: 100px 130px;
+  border: 1px solid #fd6e0a;
+}
+/* about section end heare */
+.about-h1 {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.about-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.about-info > div {
+  margin: 11px;
+}
+
+/* what-i-do start */
+
+.what-i-do {
+  border-radius: 10px;
+  margin: 50px 0;
+  padding: 100px 130px;
+
+  text-align: center;
+}
+.what-i-do-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  background: #fff;
+  gap: 24px;
+}
+.what-i-do-box > .box {
+  box-shadow: 0px 1px 3px 0px;
+  width: 230px;
+  height: 330px;
+  padding: 20px;
+}
+.what-i-do-box .box h3 {
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.what-i-do-box .box p {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.center {
+  text-align: center;
+}
+#padding {
+  padding: 30px 100px;
+}
+/* reusme start */
+.resume h1 {
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.resume-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 180px;
+  gap: 50px;
+}
+.versty {
+  padding: 10px 20px 10px 0px;
+}
+.Experience {
+  padding: 10px 20px 10px 0px;
+}
+.left {
+  text-align: left;
+  font-size: 50px;
+}
+#button {
+  text-align: center;
+  margin-top: 20px;
+}
+/* footer start */
+footer {
+  background: #fff8f3;
+}
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 100px;
+}
+.contact {
+  width: 50%;
+  margin-top: -170px;
+}
+.contact h3 {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+.contact p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-right: 60px;
+  margin-bottom: 20px;
+}
+.social i {
+  margin-right: 20px;
+  font-size: 20px;
+  color: #fd6e0a;
+}
+.sendMessage h3 {
+  font-family: Open Sans;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.sendMessage > input {
+  padding: 10px 100px 10px 5px;
+  border: 5px;
+  text-align: left;
+}
+textarea {
+  padding: 20px;
+  resize: none;
+}
