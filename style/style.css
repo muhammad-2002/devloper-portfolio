@@ -173,6 +173,10 @@ nav ul li {
   font-style: normal;
   font-weight: 400;
   line-height: 30px;
+  transition: ease 0.5s;
+}
+.what-i-do-box .box:hover {
+  transform: scale(1.02);
 }
 .center {
   text-align: center;
@@ -199,9 +203,27 @@ nav ul li {
 .Experience {
   padding: 10px 20px 10px 0px;
 }
-.left {
+.Experience h1 {
+  margin-bottom: 20px;
+}
+.Experience p {
+  padding: 10px 30px 10px 0;
+}
+.versty h1 {
+  margin-bottom: 20px;
+}
+.versty p {
+  padding: 10px 30px 10px 0;
+}
+.education h1 {
+  font-size: 30px;
   text-align: left;
-  font-size: 50px;
+  color: #474747;
+}
+.enducatin-container h1 {
+  font-size: 30px;
+  text-align: left;
+  color: #474747;
 }
 #button {
   text-align: center;
@@ -261,4 +283,17 @@ footer {
 textarea {
   padding: 20px;
   resize: none;
+}
+.button {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.copyright {
+  text-align: center;
+  background-color: black;
+  padding-top: 10px;
+  height: 50px;
+  font-size: large;
+  color: #fff;
 }
