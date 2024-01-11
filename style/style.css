@@ -298,3 +298,130 @@ textarea {
   font-size: large;
   color: #fff;
 }
+
+/* RESPONSIVE DESIGN */
+
+/* responsive for mobile */
+@media screen and (max-width: 576px) {
+  .blank {
+    display: none;
+  }
+  /* flex derection */
+  .header-content,
+  nav > ul,
+  nav,
+  .about-info,
+  .what-i-do-box,
+  .resume-content,
+  .footer-container {
+    flex-direction: column;
+  }
+  .header {
+    background-image: none;
+    width: 100%;
+  }
+  nav {
+    margin-top: 50px;
+  }
+  .btn {
+    padding: 0px 0px;
+    font-size: 15px;
+    padding: 20px 10px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .header-content {
+    padding: 0px 20px;
+  }
+  .text-content {
+    padding: 0px 20px;
+  }
+  .btns {
+    padding: 10px 20px;
+    font-size: 20px;
+  }
+  .btn {
+    width: 180px;
+    padding: 15px 30px;
+  }
+  .text-content-h1 {
+    font-size: 60px;
+  }
+
+  .img-content img {
+    width: 100%;
+    margin-top: 40px;
+  }
+
+  .about {
+    margin: 20px 20px;
+    padding: 10px 20px;
+  }
+  #padding {
+    padding: 0px;
+  }
+  .what-i-do {
+    margin: 0px;
+    padding: 20px 20px;
+  }
+
+  .Experience {
+    padding: 0px 0px 0px 0px;
+  }
+  .resume-content {
+    padding: 0px 50px;
+  }
+  .contact {
+    width: 100%;
+    margin-top: 0px;
+  }
+  .footer-container {
+    padding: 20px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  .header {
+    background-position: right bottom, left bottom;
+    background-size: 390px 330px, 70px;
+    margin-right: 0px;
+  }
+  .header-content {
+    padding: 0px 0px 0px 80px;
+  }
+  .text-content {
+    padding-right: 0px;
+  }
+  .btns {
+    margin-top: 10px;
+  }
+  .img-content .hardy {
+    margin-bottom: -60px;
+    width: 400px;
+  }
+  .about {
+    margin: 50px 20px;
+  }
+  .what-i-do {
+    flex-wrap: nowrap;
+  }
+  .what-i-do-box {
+    padding: 0px 20px;
+    margin: 0px 20px;
+  }
+  #padding {
+    padding: 0px;
+  }
+  .what-i-do-box .box p {
+    line-height: 17px;
+  }
+  .resume-content {
+    padding: 0px 50px;
+  }
+  .contact {
+    margin-top: -113px;
+  }
+  .Experience {
+    margin-top: 40px;
+    padding: 0px 40px 10px 0px;
+  }
+}
